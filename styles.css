@@ -30,13 +30,14 @@ body{
 }
 
 .search-container input {
-    width: 100%;
+    width: 0;
+    padding: 0;
     height: 100%;
     border: none;
     background-color: rgb(150, 190, 130);
     color: white;
-    padding: 15px;
     font-size: large;
+    transition: all 2s;
 }
 
 .search-container input:focus {
